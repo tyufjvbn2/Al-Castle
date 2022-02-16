@@ -10,3 +10,5 @@ router.get("/", (req, res) => {
 		data: `Result is ${fc(arr)}`,
 	});
 });
+
+export default router;
