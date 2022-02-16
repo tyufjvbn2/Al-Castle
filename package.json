@@ -1,0 +1,25 @@
+{
+  "name": "pipe-source",
+  "version": "1.0.0",
+  "description": "",
+  "main": "func.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://JongHyeok_Park@bitbucket.org/JongHyeok_Park/pipe-source.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://bitbucket.org/JongHyeok_Park/pipe-source/issues"
+  },
+  "homepage": "https://bitbucket.org/JongHyeok_Park/pipe-source#readme",
+  "dependencies": {
+    "@types/express": "^4.17.13",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.2",
+    "typescript": "^4.5.5"
+  }
+}
