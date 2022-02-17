@@ -10,9 +10,9 @@ app.use(express.json());
 
 app.use(router);
 
-const port = process.env.PORT;
-const protocol = process.env.PROTOCOL;
-const domain = process.env.DOMAIN;
+const port = process.env.PORT || 3000;
+const protocol = process.env.PROTOCOL || "http";
+const domain = process.env.DOMAIN || "localhost";
 
 app.listen(port, () => {
 	console.log(`Server is running on ${protocol}://${domain}:${port}`);
